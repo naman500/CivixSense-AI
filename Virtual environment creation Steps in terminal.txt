@@ -1,0 +1,73 @@
+***************************************************************
+Virtual Environment Setup Guide
+***************************************************************
+
+This guide will help you set up a Python virtual environment for this project.
+
+---
+
+**1. (Optional) Remove existing virtual environment:**
+- On Windows (Command Prompt):
+  ```cmd
+  rmdir /s /q .venv
+  ```
+- On PowerShell:
+  ```powershell
+  Remove-Item -Recurse -Force .venv
+  ```
+- On Linux/Mac:
+  ```bash
+  rm -rf .venv
+  ```
+
+**2. Create a new virtual environment:**
+- For the default Python version:
+  ```bash
+  python -m venv .venv
+  ```
+- For a specific Python version (e.g., Python 3.11):
+  ```bash
+  python3.11 -m venv .venv
+  ```
+  or (Windows, with full path):
+  ```powershell
+  "C:\Users\naman\AppData\Local\Programs\Python\Python311\python.exe" -m venv venv_py311
+  ```
+
+**3. Activate the virtual environment:**
+- On Windows (Command Prompt):
+  ```cmd
+  .venv\Scripts\activate
+  ```
+- On Windows (PowerShell):
+  ```powershell
+  .venv\Scripts\Activate.ps1
+  ```
+- On Linux/Mac:
+  ```bash
+  source .venv/bin/activate
+  ```
+
+**4. (Optional, PowerShell only) Set execution policy if you get a policy error:**
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+  ```
+
+**5. Install project dependencies:**
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+**6. Deactivate the virtual environment (when done):**
+  ```bash
+  deactivate
+  ```
+
+
+***********************************************************************************************************************************************************
+                                       Cuda Setup
+***********************************************************************************************************************************************************
+
+If you encounter any issues related to dependencies, CUDA setup, or GPU acceleration, feel free to reach out for support:
+- Email: soni.naman1209@gmail.com
+- GitHub: Connect with me via my GitHub profile.

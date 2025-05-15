@@ -1,0 +1,8 @@
+{
+    "cooldown_period": 60,
+    "alert_actions": {
+        "low": ["Notify security personnel for manual crowd management"],
+        "medium": ["Close certain entrances", "Redirect people to less crowded areas"],
+        "high": ["Open additional exits", "Implement emergency crowd control measures"]
+    }
+}
