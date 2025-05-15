@@ -1,4 +1,3 @@
-
 # Real-Time Crowd Detection and Monitoring System
 
 An intelligent system for real-time crowd detection and monitoring using hybrid detection(YOLOV8n & YOLOV8m) approaches.
@@ -10,6 +9,7 @@ An intelligent system for real-time crowd detection and monitoring using hybrid 
 - **Real-time Monitoring**: Web dashboard for monitoring cameras and crowds
 - **Alert System**: Configurable alerts based on crowd thresholds
 - **Multi-camera Support**: Monitor multiple cameras simultaneously
+- **ROI Support**: Define and monitor specific Regions of Interest within camera feeds
 
 ## Installation
 
